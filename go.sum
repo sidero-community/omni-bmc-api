@@ -8,8 +8,8 @@ github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsT
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tj/assert v0.0.3 h1:Df/BlaZ20mq6kuai7f5z2TvPFiwC3xaWJSDQNiIS3Rk=
 github.com/tj/assert v0.0.3/go.mod h1:Ne6X72Q+TB1AteidzQncjw9PabbMp4PBMZ1k+vd1Pvk=
-github.com/ubiquiti-community/go-unifi v1.33.11-0.20250312010857-39c704d3ec96 h1:bXO9EVN5wsoz+6ppt9wJkQMo8oqfFPkYEbhQKb5RNh0=
-github.com/ubiquiti-community/go-unifi v1.33.11-0.20250312010857-39c704d3ec96/go.mod h1:b6sqInBsNP+LgCcrRZeK6/+JPBh4vL1Bi8R06a/VKXs=
+github.com/ubiquiti-community/go-unifi v1.33.12 h1:y3zaGcBuQZWoR0sxr6dwPv5FkBYE7Hk4pJ1l8qfVMa4=
+github.com/ubiquiti-community/go-unifi v1.33.12/go.mod h1:/CA/we3gEu4yAB1rc37sxTYAyUt7RFsEddTclj0YAVI=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
