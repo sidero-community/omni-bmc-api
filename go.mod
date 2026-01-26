@@ -1,11 +1,16 @@
 module github.com/sidero-community/omni-bmc-api
 
-go 1.24.2
+go 1.24.9
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/ubiquiti-community/go-unifi v1.33.11-0.20250312010857-39c704d3ec96
+	github.com/ubiquiti-community/go-unifi v1.33.29
 	gopkg.in/yaml.v3 v3.0.1
 )
 
-require github.com/stretchr/testify v1.9.0 // indirect
+require (
+	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.8 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+	github.com/ubiquiti-community/terraform-provider-unifi v0.41.12 // indirect
+)
