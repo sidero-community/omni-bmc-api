@@ -16,8 +16,8 @@ ARG TARGETARCH
 ARG TARGETOS
 
 # Build
-RUN CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH go build -a -o rpc-api cmd/bmc/main.go
+RUN CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH go build -a -o bmc cmd/bmc/main.go
 
 FROM scratch
-COPY --from=builder /workspace/rpc-api /
-ENTRYPOINT ["/rpc-api"]
+COPY --from=builder /workspace/bmc /
+ENTRYPOINT ["/bmc"]
